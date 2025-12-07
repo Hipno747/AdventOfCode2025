@@ -1,3 +1,4 @@
+# initiate the initial position, and the password value of 0
 pos = int(50)
 password = 0
 
@@ -17,4 +18,5 @@ for instruction in lines:
     if pos == 0:
         password += 1
         
+# output the resultant password        
 print(password)
