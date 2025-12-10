@@ -3,7 +3,7 @@ pos = int(50)
 password = 0
 
 # split the input into a list of instruction strings, e.g. 'R78'
-with open("input.txt", "r") as file:
+with open("challenge1input.txt", "r") as file:
     lines = [line.rstrip('\n') for line in file]
 
 # iterate through each instruction, using the first letter to determine addition or subtracting and the following numbers to determine the amount.
@@ -20,4 +20,5 @@ for instruction in lines:
         
 # output the resultant password        
 print(password)
+
 
